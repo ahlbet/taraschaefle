@@ -100,7 +100,7 @@ a {
 
   &:hover {
     color: $text-color;
-    text-decoration: underline;
+    opacity: 0.8;
   }
 
   .social-media-list &:hover {
@@ -110,6 +110,10 @@ a {
       text-decoration: underline;
     }
   }
+}
+
+.currentLink {
+  background-color: yellow;
 }
 
 
